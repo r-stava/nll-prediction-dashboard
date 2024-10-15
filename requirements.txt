@@ -1,8 +1,5 @@
-pandas
-numpy
-streamlit
-matplotlib
 pmdarima
 prophet
-plotly
-openpyxl
+streamlit
+pandas
+matplotlib
