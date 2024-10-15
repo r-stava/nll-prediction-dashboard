@@ -9,22 +9,13 @@ Original file is located at
 Loading Data
 """
 
-from google.colab import files
-uploaded = files.upload()
-
+# Load the Excel files in your Streamlit app
 import pandas as pd
 
-# Load the states excel file
-states_df = pd.read_excel('states.xlsx')
-
-# Load vacancy rates excel file
-vacancy_rates_df = pd.read_excel('vacancy rates.xlsx')
-
-# Load rental rates excel file
-rental_rates_df = pd.read_excel('rental rates.xlsx')
-
-# Load home value rates excel file
-home_value_rates_df = pd.read_excel('home value rates.xlsx')
+vacancy_rates_df = pd.read_excel("vacancy rates.xlsx")
+rental_rates_df = pd.read_excel("rental rates.xlsx")
+home_value_rates_df = pd.read_excel("home value rates.xlsx")
+states_df = pd.read_excel("states.xlsx")
 
 # Displaying the first few rows of each dataframe to understand their structure
 print("States Data:")
