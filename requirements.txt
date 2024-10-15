@@ -1,5 +1,8 @@
+pandas
+numpy
+streamlit
+matplotlib
 pmdarima
 prophet
-streamlit
-pandas
-matplotlib
+plotly
+openpyxl
