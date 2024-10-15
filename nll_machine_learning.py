@@ -138,7 +138,7 @@ plt.grid(True)
 plt.legend()
 plt.show()
 
-!pip install pmdarima
+pip install pmdarima
 
 # Step 1: Prepare the vacancy time series data
 
@@ -260,7 +260,7 @@ print(f"Vacancy Rate Prediction in 10 years: {forecasts[10]:.2f}")
 
 """Time Series Algorithms | Prophet | Home Value Rate and Rental Rate"""
 
-!pip install prophet
+pip install prophet
 
 # Step 2.1: Prepare rental rates data for Prophet
 # Transpose to get dates as rows instead of columns
@@ -432,7 +432,7 @@ print(f"Home Value Rate Prediction Accuracy: MSE={home_value_mse}, MAE={home_val
 """Dashboard | Printing the predictions for vacancy rate, home value rate and rental rate"""
 
 # Step 1: Install necessary libraries if not already installed
-!pip install streamlit matplotlib prophet pmdarima
+pip install streamlit matplotlib prophet pmdarima
 
 # Step 2: Import necessary libraries
 import streamlit as st
