@@ -63,7 +63,7 @@ home_value_rates_df.dropna(inplace=True)
 vacancy_rates_df.dropna(inplace=True)
 
 # Allow user to input county name
-selected_county = input('Enter the name of the county you are interested in: ')
+selected_county = st.text_input('Enter the name of the county you are interested in: ')
 
 # Filter data for the selected county and get the corresponding state
 filtered_rental_rates = rental_rates_df[rental_rates_df['County'] == selected_county]
