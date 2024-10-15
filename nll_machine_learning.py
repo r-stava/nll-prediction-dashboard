@@ -9,8 +9,12 @@ Original file is located at
 Loading Data
 """
 
-# Load the Excel files in your Streamlit app
+import streamlit as st
 import pandas as pd
+import matplotlib.pyplot as plt
+import numpy as np
+from pmdarima import auto_arima
+from prophet import Prophet
 
 vacancy_rates_df = pd.read_excel("vacancy rates.xlsx")
 rental_rates_df = pd.read_excel("rental rates.xlsx")
