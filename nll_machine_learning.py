@@ -150,6 +150,7 @@ if selected_county:
         st.write(home_value_rate_3_years)
         st.write(home_value_rate_5_years)
         st.write(home_value_rate_10_years)
+        
 
     else:
         st.error(f"County '{selected_county}' not found in the data.")
